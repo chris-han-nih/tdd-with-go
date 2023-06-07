@@ -74,8 +74,8 @@ func TestPopTwo(t *testing.T) {
 
 	v2 := s.Pop()
 
-	if v2 != 2 {
-		t.Error("Expected 2, got ", v2)
+	if v2 != 1 {
+		t.Error("Expected 1, got ", v2)
 	}
 
 	if s.Size() != 0 {
